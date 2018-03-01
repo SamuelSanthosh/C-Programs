@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include <stdlib.h>
+int main()
+{
+    long int n,count=0;
+    scanf("%ld",&n);
+    while(n!=0)
+    {
+        if(n-2*(n/2)==1)
+            count++;
+        n/=2;    
+    }
+    printf("%d",count);
+}

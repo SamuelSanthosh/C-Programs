@@ -2,8 +2,9 @@
 #include <stdlib.h>
 int main()
 {
-    int n,x,a[10],i;
-    scanf("%d %d",&n,&x);
+    long int n;
+    int x,a[10],i;
+    scanf("%ld %d",&n,&x);
     while(n>0)
     {
         a[i++]=n%10;
